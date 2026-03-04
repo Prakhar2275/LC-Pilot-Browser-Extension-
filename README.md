@@ -1,2 +1,203 @@
-# LC-Buddy-Browser-Extension-
-LC Buddy is an open-source browser extension designed to enhance the problem-solving experience on LeetCode by providing real-time algorithm insights directly inside the coding interface.
+# LC Buddy
+
+### Open Source Algorithm Insight Extension for LeetCode
+
+LC Buddy is a browser extension that enhances the coding experience on LeetCode by providing **real-time algorithm insights, time complexity estimation, and optimization hints** directly inside the problem interface.
+
+The extension analyzes the code written by the user and provides feedback about algorithmic efficiency, helping developers understand how optimal their solution is.
+
+---
+
+# Features
+
+### Time Complexity Estimation
+
+Analyzes the code written in the editor and estimates the time complexity of the solution.
+
+Example output:
+
+Your Complexity: O(n²)
+Optimal Complexity: O(n log n)
+
+---
+
+### Space Complexity Analysis
+
+Provides an estimate of the memory usage patterns of the implemented solution.
+
+---
+
+### Algorithm Pattern Detection
+
+Automatically detects algorithmic techniques used in the solution.
+
+Examples:
+
+* Binary Search
+* Sliding Window
+* Two Pointers
+* Hash Map
+* Dynamic Programming
+* Graph Traversal
+
+---
+
+### Optimal Approach Suggestions
+
+LC Buddy compares the detected complexity with commonly known optimal approaches and suggests improvements.
+
+Example:
+
+Detected Pattern: Sliding Window
+Suggestion: Reduce nested iteration using a two-pointer technique.
+
+---
+
+### Integrated Sidebar Interface
+
+LC Buddy injects a sidebar panel into the LeetCode interface where analysis results and insights are displayed without disrupting the coding workflow.
+
+---
+
+# Tech Stack
+
+## Frontend (Extension)
+
+* JavaScript
+* React
+* Chrome Extension APIs
+* DOM Manipulation
+* Monaco Editor Integration
+
+---
+
+## Backend
+
+Built using **FastAPI**
+
+Responsibilities:
+
+* Code analysis
+* Pattern detection
+* Complexity estimation
+* Hint generation
+* API endpoints for extension communication
+
+---
+
+## Database
+
+SQLite
+
+Used for storing:
+
+* analysis history
+* complexity results
+* problem metadata
+* user insights
+
+---
+
+# Architecture
+
+User writes code on LeetCode
+↓
+Extension extracts code from the editor
+↓
+Code sent to FastAPI backend
+↓
+Backend analyzes algorithm structure
+↓
+Time complexity + insights generated
+↓
+Results displayed in extension sidebar
+
+---
+
+# Project Structure
+
+LC-buddy/
+
+backend/
+app/
+routes/
+services/
+models/
+schemas/
+database/
+main.py
+
+extension/
+manifest.json
+content.js
+background.js
+
+ui/
+sidebar/
+popup/
+
+---
+
+# Installation
+
+## Clone Repository
+
+git clone https://github.com/yourusername/lc-buddy
+
+---
+
+## Backend Setup
+
+cd backend
+
+pip install -r requirements.txt
+
+uvicorn app.main:app --reload
+
+---
+
+## Load Chrome Extension
+
+1. Open Chrome
+2. Navigate to
+
+chrome://extensions
+
+3. Enable Developer Mode
+4. Click **Load Unpacked**
+5. Select the extension folder
+
+---
+
+# Roadmap
+
+* Real-time code complexity visualization
+* AI-powered algorithm hints
+* Contest mode insights
+* Solution comparison engine
+* Performance benchmarking
+
+---
+
+# Contributing
+
+LC Buddy is an open-source project and contributions are welcome.
+
+Steps to contribute:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a pull request
+
+---
+
+# License
+
+MIT License
+
+---
+
+# Vision
+
+LC Buddy aims to help developers understand not only **how to solve problems**, but also **how to solve them efficiently** by providing algorithmic insights during the coding process.
