@@ -2,7 +2,7 @@
 
 ### 🧠 Open Source Algorithm Insight Extension for LeetCode
 
-LC Buddy is a browser extension that enhances the coding experience on LeetCode by providing **real-time algorithm insights, time complexity estimation, and optimization hints** directly inside the problem interface.
+LC Buddy is a browser extension that enhances the coding experience on LeetCode by providing **real-time algorithm insights, time complexity estimation, and optimization hints** directly inside the problem interface,this also  provides you with the optimal approach to reach to the solution without hopping on to the solution directly that help improving your Problem Solving Skills.
 
 The extension analyzes the code written by the user and provides feedback about algorithmic efficiency, helping developers understand how optimal their solution is.
 
@@ -27,20 +27,6 @@ Provides an estimate of the memory usage patterns of the implemented solution.
 
 ---
 
-### 🧠 Algorithm Pattern Detection
-
-Automatically detects algorithmic techniques used in the solution.
-
-Examples:
-
-* 🔍 Binary Search
-* 🪟 Sliding Window
-* ↔️ Two Pointers
-* 🗂️ Hash Map
-* 📊 Dynamic Programming
-* 🌐 Graph Traversal
-
----
 
 ### 💡 Optimal Approach Suggestions
 
