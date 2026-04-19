@@ -1,8 +1,8 @@
-# 🚀 LC Buddy
+# 🚀 LC Pilot
 
 ### 🧠 Open Source Algorithm Insight Extension for LeetCode
 
-LC Buddy is a browser extension that enhances the coding experience on LeetCode by providing **real-time algorithm insights, time complexity estimation, and optimization hints** directly inside the problem interface,this also  provides you with the optimal approach to reach to the solution without hopping on to the solution directly that help improving your Problem Solving Skills.
+LC Pilotlt is a browser extension that enhances the coding experience on LeetCode by providing **real-time algorithm insights, time complexity estimation, and optimization hints** directly inside the problem interface,this also  provides you with the optimal approach to reach to the solution without hopping on to the solution directly that help improving your Problem Solving Skills.
 
 The extension analyzes the code written by the user and provides feedback about algorithmic efficiency, helping developers understand how optimal their solution is.
 
