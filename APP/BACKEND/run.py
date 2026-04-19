@@ -1,10 +1,10 @@
-from fastapi import FastAPI
+# /*
+#  * LC Pilot — run.py
+#  * used for the testing time for the depployment of the prohect
+#  */
 
-from app.routes.ai_routes import router
+import uvicorn
+from app.main import app 
 
-
-app = FastAPI(
-    title="LC Buddy Backend"
-)
-
-app.include_router(router)
+if __name__ == "__main__":
+    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
